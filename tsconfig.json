@@ -1,0 +1,19 @@
+// "allowJs": true => allowJs로 js 파일도 tsc로 컴파일 가능하여, javascript 프로젝트를 전환할 경우 src 폴더 밑에 모두 ts로 한번에 바꿀필요없이, 점진적으로 적용할수있음
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "target":"ES6",
+        "outDir":"./dist",
+        "moduleResolution": "Node",
+        "lib":["ES2015","DOM","DOM.Iterable"],
+        "noImplicitAny": true,
+        "typeRoots": ["./node_modules/@types","./types"],
+        "strict":true,
+        "module": "commonjs",
+        "resolveJsonModule":true,
+        "rootDir" : "src",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true
+    },
+    "include": ["src/**/*"]
+}

@@ -1,0 +1,228 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.wrap {
+    width: 500px;
+    margin: 0 auto;
+    /* 20201212 JIN. padding 10px추가 css */
+    padding: 60px 10px;
+}
+
+.wrap_certify {
+    position: relative;
+    width: 100%;
+    /* 20201212 JIN. 필요없는 css
+    height: 320px; */
+    margin: 0 auto;
+    /* 20201212 JIN. 필요없는 css
+    background: url(../images/saybox.png) no-repeat 50% 0%; */
+    padding: 20px 0 0 0;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 100;
+    text-align: center;
+    line-height: 1.1;
+}
+
+.b_font {
+    font-weight: 700;
+}
+
+.p_font {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.certify_wrap {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+a.blue_link {
+    width: 100%;
+    height: 60px;
+    background: #4545f1;
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+    display: inline-block;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 2.6;
+    /* 20201212 JIN. margin-top 50px로 변경 */
+    margin-top: 50px;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+button[type=submit] {
+    width: 100%;
+    height: 60px;
+    background: #4545f1;
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+    display: inline-block;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 2.6;
+    cursor: pointer;
+    border: 0
+}
+
+button[type=submit]:hover {
+    background-color: #4545f1;
+}
+
+.mgt30 {
+    margin-top: 30px;
+}
+
+.check-result {
+    margin-bottom: 20px;
+}
