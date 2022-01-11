@@ -17,4 +17,6 @@
 - 채팅(socket.io와 push)
   - 기능 개선 필요 : [관련 이슈 보기](https://github.com/jerry92k/gogooo-backend/issues/4)
 
-![그림1](https://user-images.githubusercontent.com/62507373/148913617-57a90c95-ecaf-498b-a0f6-d526a230456a.png)
+![그림1](https://user-images.githubusercontent.com/62507373/148953475-26efdc34-19b6-4e87-b945-2d14dfcc4189.png)
+
+![그림2](https://user-images.githubusercontent.com/62507373/148953548-9dc1599b-8c87-477d-8aff-66f0e56df196.png)
