@@ -15,5 +15,6 @@
 - 프로필 생성
 - 모임 개설, 참여, 관리
 - 채팅(socket.io와 push)
+  - 기능 개선 필요 : [관련 이슈 보기](https://github.com/jerry92k/gogooo-backend/issues/4)
 
 ![그림1](https://user-images.githubusercontent.com/62507373/148913617-57a90c95-ecaf-498b-a0f6-d526a230456a.png)
